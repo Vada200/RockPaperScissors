@@ -1,0 +1,46 @@
+body {
+    background-image: url("rps.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+#subtitle {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.pics {
+    width: 150px;
+    padding: 30px;
+    
+}
+
+#select {
+    display: flex;
+    justify-content: center;
+}
+
+#pic {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;   
+}
+
+#stats {
+    position: absolute;
+    text-align: left;
+    font-size: 30px;
+}
+
+
